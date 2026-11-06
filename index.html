@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Munshi Md | Halal Freelance Video Editor</title>
+  <meta name="description" content="Munshi Md Mohaimenul Huda, halal freelance video editor for Islamic organisations, charities, scholars and creators. Short-form reels, long-form edits, AI motion graphics and custom AI reels." />
+  <meta name="theme-color" content="#2B2B29" />
+  <!-- Fallback font while Nexa loads / if Nexa files are not added yet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="header">
+    <nav class="container nav" aria-label="Main">
+      <a href="#top" class="logo" aria-label="Munshi Md home">
+        <span class="logo-mark"><svg viewBox="0 0 24 24"><path d="M5 3l16 9-16 9z"/></svg></span>
+        <span>munshi<em>.</em>md</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary">Work with me</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Halal Freelance Video Editor</span>
+          <h1>Videos that carry a <span class="accent">meaningful</span> message.</h1>
+          <p class="lead">I'm Munshi, a video editor for Islamic organisations, charities, scholars and creators. I turn raw footage into reels and films that hold attention and deliver your message with care.</p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"/></svg>
+              Watch my reels
+            </a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <div><strong data-count="3" data-suffix="+">0</strong><span>Years editing</span></div>
+            <div><strong data-count="2000" data-suffix="+">0</strong><span>Videos &amp; reels edited</span></div>
+            <div><strong data-count="100" data-suffix="K">0</strong><span>Followers in 6 months,<br/>starting from zero</span></div>
+          </div>
+        </div>
+
+        <div class="phone-wrap">
+          <div class="phone" role="button" tabindex="0" aria-label="Play reel: Sadaqah Multiplies, with sound"
+               data-video="assets/reel-sadaqah-multiplies.mp4" data-vertical="1"
+               data-title="Sadaqah Multiplies" data-sub="Care Beyond Borders · Custom AI Reel">
+            <video src="assets/reel-sadaqah-multiplies.mp4" poster="assets/reel-sadaqah-multiplies.jpg" autoplay muted loop playsinline></video>
+            <span class="phone-sound"><svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg>Tap for sound</span>
+          </div>
+          <div class="float-card fc-1"><b>2,000+</b><small>Reels delivered</small></div>
+          <div class="float-card fc-2"><b>Millions</b><small>of organic views</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CLIENTS ================= -->
+    <section class="clients" aria-label="Clients">
+      <p>Trusted by Islamic organisations, charities &amp; scholars</p>
+      <div class="marquee">
+        <span>Global Relief Trust UK</span><span>Bukhari TV</span><span>Bukhari Centre</span><span>Unity Aid</span><span>Ustadh Abu Uthman Sadiq</span><span>Ustadh Hasan Ali</span><span>EIC UK</span><span>Care Beyond Borders</span><span>Miraath Institute</span><span>Rochdale Community Mosque</span>
+        <span aria-hidden="true">Global Relief Trust UK</span><span aria-hidden="true">Bukhari TV</span><span aria-hidden="true">Bukhari Centre</span><span aria-hidden="true">Unity Aid</span><span aria-hidden="true">Ustadh Abu Uthman Sadiq</span><span aria-hidden="true">Ustadh Hasan Ali</span><span aria-hidden="true">EIC UK</span><span aria-hidden="true">Care Beyond Borders</span><span aria-hidden="true">Miraath Institute</span><span aria-hidden="true">Rochdale Community Mosque</span>
+      </div>
+    </section>
+
+    <!-- ================= WORK ================= -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Selected work</span>
+            <h2 class="section-title">Custom <span class="accent">AI reels</span></h2>
+          </div>
+          <p class="section-lead">Charity and dawah reels built with AI motion graphics, clear captions and strong hooks. Tap a reel to watch it with sound.</p>
+        </div>
+
+        <!--
+          HOW TO ADD A REEL
+          1. Put the video (.mp4) and a poster image (.jpg) in the assets folder.
+          2. Copy one <button class="reel-card"> ... </button> block and change the file names and text.
+        -->
+        <div class="reel-grid">
+          <button class="reel-card reveal" data-video="assets/reel-sadaqah-multiplies.mp4" data-vertical="1"
+                  data-title="Sadaqah Multiplies" data-sub="Care Beyond Borders · Custom AI Reel">
+            <div class="reel-thumb">
+              <img src="assets/reel-sadaqah-multiplies.jpg" alt="Animated wheat stalk with seven ears and one hundred grains" loading="lazy" />
+              <video muted loop playsinline preload="none" src="assets/reel-sadaqah-multiplies.mp4"></video>
+              <span class="cat">AI Motion Graphics</span><span class="dur">00:32</span>
+              <span class="mini-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>
+            </div>
+            <div class="work-info">
+              <h3>Sadaqah Multiplies</h3>
+              <p class="client">Care Beyond Borders (CBB Canada)</p>
+              <p class="desc">Fully animated fundraising reel that brings Al-Baqarah 2:261 to life, from a single seed to seven ears of grain, ending in a clear call to donate.</p>
+              <div class="tags"><span>AI motion graphics</span><span>Charity campaign</span><span>Captions</span></div>
+            </div>
+          </button>
+
+          <button class="reel-card reveal" data-video="assets/reel-hot-meals-rohingya.mp4" data-vertical="1"
+                  data-title="Hot Meals for the Rohingya Camps" data-sub="Care Beyond Borders · Custom AI Reel">
+            <div class="reel-thumb">
+              <img src="assets/reel-hot-meals-rohingya.jpg" alt="Child in a Rohingya refugee camp" loading="lazy" />
+              <video muted loop playsinline preload="none" src="assets/reel-hot-meals-rohingya.mp4"></video>
+              <span class="cat">Charity Appeal</span><span class="dur">00:27</span>
+              <span class="mini-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>
+            </div>
+            <div class="work-info">
+              <h3>Hot Meals for the Rohingya Camps</h3>
+              <p class="client">Care Beyond Borders (CBB Canada)</p>
+              <p class="desc">Field footage from Cox's Bazar paired with animated data graphics that show donors exactly what their gift provides.</p>
+              <div class="tags"><span>Storytelling</span><span>Animated infographics</span><span>Fundraising</span></div>
+            </div>
+          </button>
+
+          <a class="ig-card reveal" href="https://www.instagram.com/khayrxstudio/" target="_blank" rel="noopener">
+            <span class="ig-icon"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2.2c-2.7 0-3 0-4 .1C4.2 2.4 2.4 4.2 2.3 8c-.1 1-.1 1.3-.1 4s0 3 .1 4c.1 3.8 1.9 5.6 5.7 5.7 1 .1 1.3.1 4 .1s3 0 4-.1c3.8-.1 5.6-1.9 5.7-5.7.1-1 .1-1.3.1-4s0-3-.1-4C21.6 4.2 19.8 2.4 16 2.3c-1-.1-1.3-.1-4-.1zm0 1.8c2.6 0 2.9 0 4 .1 2.7.1 3.9 1.4 4 4 .1 1 .1 1.3.1 3.9s0 2.9-.1 3.9c-.1 2.6-1.3 3.9-4 4-1 .1-1.4.1-4 .1s-2.9 0-3.9-.1c-2.7-.1-3.9-1.4-4-4C4 14.9 4 14.6 4 12s0-2.9.1-3.9c.1-2.6 1.3-3.9 4-4 1-.1 1.3-.1 3.9-.1z"/></svg></span>
+            <span class="ig-handle">@khayrxstudio</span>
+            <h3>See more of my work on Instagram</h3>
+            <p>Reels for scholars, mosques, charities and creators, updated regularly.</p>
+            <span class="btn">Open Instagram
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GROWTH BAND ================= -->
+    <section class="growth" aria-label="Results">
+      <div class="container growth-grid reveal">
+        <div class="growth-big">
+          <span class="from">0</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="to">100K</span>
+        </div>
+        <div>
+          <h2>I've grown many pages from zero to 100K followers in just six months.</h2>
+          <p>Consistent, retention-focused editing builds an audience. Strong hooks, clean pacing and clear captions keep people watching, sharing and following.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Services</span>
+            <h2 class="section-title">Everything your <span class="accent">message</span> needs</h2>
+          </div>
+          <p class="section-lead">One editor from raw footage to final delivery, with every edit aligned with Islamic values.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"/></svg></div>
+            <h3>Video Editing</h3>
+            <p>Short-form reels, Shorts and TikToks plus long-form lectures, podcasts and campaign films, with pacing that keeps viewers watching.</p>
+          </article>
+          <article class="service reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg></div>
+            <h3>Colour Grading</h3>
+            <p>Clean, consistent colour that makes your footage look professional and keeps your brand recognisable across every video.</p>
+          </article>
+          <article class="service reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.6L12 15l-1.8-4.4L5.5 9l4.7-1.4zM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9zM5 15l.7 1.5L7 17l-1.3.6L5 19l-.7-1.4L3 17l1.3-.5z"/></svg></div>
+            <h3>AI Motion Graphics</h3>
+            <p>Animated titles, illustrations, infographics and kinetic text created with AI tools, giving your message a modern, eye-catching look.</p>
+          </article>
+          <article class="service reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 10v4M7 6v12M11 3v18M15 7v10M19 10v4"/></svg></div>
+            <h3>Sound Design &amp; Mix</h3>
+            <p>Dialogue clean-up, noise removal and voice enhancement, with halal-friendly, music-free sound that is clear on every device.</p>
+          </article>
+          <article class="service reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 6h4M10 18h4M10 10h4v4h-4z"/></svg></div>
+            <h3>Captions &amp; Social Reels</h3>
+            <p>Vertical reels with styled captions, strong hooks and platform-ready exports for Instagram, YouTube Shorts and TikTok.</p>
+          </article>
+          <article class="service reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M12 7l1 2.2 2.3.3-1.7 1.6.4 2.3-2-1.1-2 1.1.4-2.3-1.7-1.6 2.3-.3z"/></svg></div>
+            <h3>Custom AI Reels</h3>
+            <p>Fully custom reels built from your script, combining AI visuals and motion graphics. Ideal for charity appeals, reminders and dawah.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS (Sky Blue hero band) ================= -->
+    <section class="section band" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Process</span>
+            <h2 class="section-title">From footage to final in four steps</h2>
+          </div>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><div class="num">01</div><h3>Brief</h3><p>We talk about your message, audience, style and deadlines, and agree a clear plan.</p></div>
+          <div class="step reveal"><div class="num">02</div><h3>First cut</h3><p>I review your footage and build the story with a strong hook, clear structure and good pacing.</p></div>
+          <div class="step reveal"><div class="num">03</div><h3>Refine</h3><p>You share feedback and I polish the edit with captions, colour, sound and motion graphics.</p></div>
+          <div class="step reveal"><div class="num">04</div><h3>Deliver</h3><p>You get platform-ready files in every format and aspect ratio you need, on time.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="portrait reveal">
+          <div class="portrait-inner">
+            <!-- To add your photo: put portrait.jpg in assets and replace the line below with
+                 <img src="assets/portrait.jpg" alt="Munshi Md Mohaimenul Huda"> -->
+            <span class="monogram">MM</span>
+          </div>
+          <div class="badge"><i></i><div><strong>Available for work</strong><small>Taking new projects</small></div></div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">About me</span>
+          <h2 class="section-title">Hi, I'm <span class="accent">Munshi</span>.</h2>
+          <p>I'm Munshi Md Mohaimenul Huda, a professional video editor with 3+ years of experience specialising in short-form and long-form content.</p>
+          <p>I've edited over 2,000 videos and reels, contributing to content that has reached millions of organic views. I've had the opportunity to work with recognised names in Islamic media, including Global Relief Trust UK, Bukhari TV, Bukhari Centre, Ustadh Abu Uthman Sadiq, Unity Aid, and Ustadh Hasan Ali, alongside numerous Islamic charities, organisations, scholars and content creators.</p>
+          <p>I specialise in engaging storytelling, audience retention and high-quality video editing, helping organisations and creators communicate meaningful messages.</p>
+          <p class="about-sign">Let's create something meaningful together.</p>
+
+          <div class="tools" aria-label="Software">
+            <span class="tool"><b>Pr</b>Adobe Premiere Pro</span>
+            <span class="tool"><b>Cc</b>CapCut</span>
+          </div>
+
+          <ul class="highlights">
+            <li><strong>2,000+</strong><span>videos &amp; reels edited</span></li>
+            <li><strong>Millions</strong><span>of organic views</span></li>
+            <li><strong>0 → 100K</strong><span>followers in 6 months</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS (dark) ================= -->
+    <section class="section dark" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Kind words</span>
+            <h2 class="section-title">What clients say</h2>
+          </div>
+        </div>
+        <div class="quotes">
+          <figure class="quote reveal">
+            <svg viewBox="0 0 24 24"><path d="M9.6 6C6 7.4 4 10.3 4 14v4h6v-6H7c0-2.5 1.2-4.2 3.4-5.2zm10 0C16 7.4 14 10.3 14 14v4h6v-6h-3c0-2.5 1.2-4.2 3.4-5.2z"/></svg>
+            <p>Working with Munshi has been a great experience. His attention to detail, understanding of Islamic content and ability to create engaging videos make him a valuable part of the team. He consistently delivers quality work and understands the importance of presenting the message effectively.</p>
+            <figcaption class="who"><span class="avatar">AU</span><div><strong>Ustadh Abu Uthman Sadiq</strong><small>Client</small></div></figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <svg viewBox="0 0 24 24"><path d="M9.6 6C6 7.4 4 10.3 4 14v4h6v-6H7c0-2.5 1.2-4.2 3.4-5.2zm10 0C16 7.4 14 10.3 14 14v4h6v-6h-3c0-2.5 1.2-4.2 3.4-5.2z"/></svg>
+            <p>Munshi has demonstrated great dedication and professionalism in his work. His editing skills, creativity and understanding of content presentation have been impressive. He is reliable, communicates well and consistently strives to deliver high-quality videos.</p>
+            <figcaption class="who"><span class="avatar">AS</span><div><strong>Ustadh Abdullahi Shire</strong><small>Client</small></div></figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <svg viewBox="0 0 24 24"><path d="M9.6 6C6 7.4 4 10.3 4 14v4h6v-6H7c0-2.5 1.2-4.2 3.4-5.2zm10 0C16 7.4 14 10.3 14 14v4h6v-6h-3c0-2.5 1.2-4.2 3.4-5.2z"/></svg>
+            <p>Munshi has been a valuable support in our video content production. His ability to transform raw footage into engaging and well-presented content, along with his consistency and commitment, has been greatly appreciated. We value his contribution to our media work.</p>
+            <figcaption class="who"><span class="avatar">EIC</span><div><strong>European Islamic Centre</strong><small>EIC UK</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="eyebrow">Contact</span>
+          <h2 class="section-title">Let's create something <span class="accent">meaningful</span></h2>
+          <p class="section-lead" style="margin-bottom:36px">Tell me about your project by email and I'll get back to you with ideas and next steps, in shā' Allāh.</p>
+
+          <div class="item">
+            <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <div><small>Email</small><a href="mailto:mohaimunshi2005@gmail.com">mohaimunshi2005@gmail.com</a></div>
+          </div>
+          <div class="item">
+            <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></span>
+            <div><small>Instagram</small><a href="https://www.instagram.com/khayrxstudio/" target="_blank" rel="noopener">@khayrxstudio</a></div>
+          </div>
+          <div class="item">
+            <span class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>
+            <div><small>Availability</small><span>Remote · Working with clients worldwide</span></div>
+          </div>
+        </div>
+
+        <!-- This form opens the visitor's email app with the message ready to send to mohaimunshi2005@gmail.com -->
+        <form class="form reveal" id="contactForm" data-email="mohaimunshi2005@gmail.com">
+          <div class="form-row">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Your full name" required /></div>
+            <div class="field"><label for="org">Organisation (optional)</label><input id="org" name="org" type="text" placeholder="Masjid, charity or channel" /></div>
+          </div>
+          <div class="field">
+            <span style="font-size:14px;font-weight:700">What do you need?</span>
+            <div class="chips">
+              <input type="checkbox" id="c1" name="service" value="Short-form reels" checked /><label for="c1">Short-form reels</label>
+              <input type="checkbox" id="c2" name="service" value="Long-form editing" /><label for="c2">Long-form editing</label>
+              <input type="checkbox" id="c3" name="service" value="AI motion graphics" /><label for="c3">AI motion graphics</label>
+              <input type="checkbox" id="c4" name="service" value="Custom AI reels" /><label for="c4">Custom AI reels</label>
+              <input type="checkbox" id="c5" name="service" value="Colour & sound" /><label for="c5">Colour &amp; sound</label>
+            </div>
+          </div>
+          <div class="field"><label for="message">Project details</label><textarea id="message" name="message" placeholder="Tell me about your footage, the message, video length and where it will be published…" required></textarea></div>
+          <button type="submit" class="btn btn-primary" style="width:100%">Email me about your project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="form-success" id="formSuccess" role="status">Your email app should now be open with your message ready. If it didn't open, email me at mohaimunshi2005@gmail.com.</p>
+          <p class="form-note">This opens your email app with your message ready to send to mohaimunshi2005@gmail.com.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= CTA + FOOTER ================= -->
+  <section class="cta-band">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Have a message to share? Let's turn your footage into something meaningful.</h2>
+        <a href="mailto:mohaimunshi2005@gmail.com" class="btn">Email me</a>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="#top" class="logo"><span class="logo-mark"><svg viewBox="0 0 24 24"><path d="M5 3l16 9-16 9z"/></svg></span><span>munshi<em>.</em>md</span></a>
+          <p>Halal freelance video editor for Islamic organisations, charities, scholars and creators.</p>
+        </div>
+        <div class="footer-cols">
+          <div><h4>Explore</h4><ul><li><a href="#work">Work</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></div>
+          <div><h4>Connect</h4><ul><li><a href="https://www.instagram.com/khayrxstudio/" target="_blank" rel="noopener">Instagram</a></li><li><a href="mailto:mohaimunshi2005@gmail.com">Email</a></li></ul></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Munshi Md Mohaimenul Huda. All rights reserved.</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= VIDEO MODAL ================= -->
+  <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close video"><svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="modal-box">
+      <div class="modal-frame" id="modalFrame"></div>
+      <div class="modal-meta"><h3 id="modalTitle"></h3><small id="modalSub"></small></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
